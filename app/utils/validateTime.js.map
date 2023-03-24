@@ -1,0 +1,1 @@
+{"version":3,"file":"validateTime.js","sourceRoot":"","sources":["../../src/utils/validateTime.ts"],"names":[],"mappings":";;AAQA,SAAwB,YAAY,CAAC,QAAgB;IACnD,MAAM,KAAK,GAAG,gDAAgD,CAAA;IAC9D,IAAI,CAAC,KAAK,CAAC,IAAI,CAAC,QAAQ,CAAC,EAAE;QACzB,OAAO,KAAK,CAAA;KACb;IACD,OAAO,IAAI,CAAA;AACb,CAAC;AAND,+BAMC"}

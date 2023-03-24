@@ -1,0 +1,1 @@
+{"version":3,"file":"personalMsgVo.js","sourceRoot":"","sources":["../../../src/personal-msg/vo/personalMsgVo.ts"],"names":[],"mappings":";;AAAA,MAAqB,aAAa;IAMhC,YAAY,QAAgB,EAAE,qBAA6B,EAAE,aAAqB;QAChF,IAAI,CAAC,QAAQ,GAAG,QAAQ,CAAA;QACxB,IAAI,CAAC,qBAAqB,GAAG,qBAAqB,CAAA;QAClD,IAAI,CAAC,aAAa,GAAG,aAAa,CAAA;IACpC,CAAC;CACF;AAXD,gCAWC"}

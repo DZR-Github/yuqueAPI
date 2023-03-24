@@ -1,0 +1,1 @@
+{"version":3,"file":"favour.module.js","sourceRoot":"","sources":["../../src/favour/favour.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAuC;AACvC,qDAAgD;AAChD,2DAAsD;AACtD,+EAA0E;AAMnE,IAAM,YAAY,GAAlB,MAAM,YAAY;CAAG,CAAA;AAAf,YAAY;IAJxB,IAAA,eAAM,EAAC;QACN,WAAW,EAAE,CAAC,oCAAgB,CAAC;QAC/B,SAAS,EAAE,CAAC,8BAAa,EAAE,mCAAe,CAAC;KAC5C,CAAC;GACW,YAAY,CAAG;AAAf,oCAAY"}

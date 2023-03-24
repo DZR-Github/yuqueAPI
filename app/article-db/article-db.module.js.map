@@ -1,0 +1,1 @@
+{"version":3,"file":"article-db.module.js","sourceRoot":"","sources":["../../src/article-db/article-db.module.ts"],"names":[],"mappings":";;;;;;;;;AAQA,2CAAuC;AACvC,6DAAmD;AAM5C,IAAM,eAAe,GAArB,MAAM,eAAe;CAAG,CAAA;AAAlB,eAAe;IAJ3B,IAAA,eAAM,EAAC;QACN,SAAS,EAAE,CAAC,4BAAgB,CAAC;QAC7B,OAAO,EAAE,CAAC,4BAAgB,CAAC;KAC5B,CAAC;GACW,eAAe,CAAG;AAAlB,0CAAe"}

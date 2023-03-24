@@ -1,0 +1,112 @@
+{
+  "favour": [
+    {
+      "articleId": 0,
+      "likeQuantity": 10,
+      "likeUsers": []
+    },
+    {
+      "articleId": 1,
+      "likeQuantity": 21,
+      "likeUsers": [
+        "c1a7b1b0-c494-11ed-ab40-674c0c36a5c7"
+      ]
+    },
+    {
+      "articleId": 2,
+      "likeQuantity": 17,
+      "likeUsers": []
+    },
+    {
+      "articleId": 3,
+      "likeQuantity": 100,
+      "likeUsers": [
+        "c1a7b1b0-c494-11ed-ab40-674c0c36a5c7"
+      ]
+    },
+    {
+      "articleId": 4,
+      "likeQuantity": 67,
+      "likeUsers": []
+    },
+    {
+      "articleId": 5,
+      "likeQuantity": 88,
+      "likeUsers": []
+    },
+    {
+      "articleId": 6,
+      "likeQuantity": 79,
+      "likeUsers": []
+    },
+    {
+      "articleId": 7,
+      "likeQuantity": 103,
+      "likeUsers": []
+    },
+    {
+      "articleId": 8,
+      "likeQuantity": 999,
+      "likeUsers": []
+    },
+    {
+      "articleId": 9,
+      "likeQuantity": 108,
+      "likeUsers": []
+    },
+    {
+      "articleId": 10,
+      "likeQuantity": 200,
+      "likeUsers": []
+    },
+    {
+      "articleId": 11,
+      "likeQuantity": 21,
+      "likeUsers": [
+        "c1a7b1b0-c494-11ed-ab40-674c0c36a5c7"
+      ]
+    },
+    {
+      "articleId": 12,
+      "likeQuantity": 17,
+      "likeUsers": []
+    },
+    {
+      "articleId": 13,
+      "likeQuantity": 100,
+      "likeUsers": [
+        "c1a7b1b0-c494-11ed-ab40-674c0c36a5c7"
+      ]
+    },
+    {
+      "articleId": 14,
+      "likeQuantity": 67,
+      "likeUsers": []
+    },
+    {
+      "articleId": 15,
+      "likeQuantity": 88,
+      "likeUsers": []
+    },
+    {
+      "articleId": 16,
+      "likeQuantity": 79,
+      "likeUsers": []
+    },
+    {
+      "articleId": 17,
+      "likeQuantity": 103,
+      "likeUsers": []
+    },
+    {
+      "articleId": 18,
+      "likeQuantity": 999,
+      "likeUsers": []
+    },
+    {
+      "articleId": 19,
+      "likeQuantity": 108,
+      "likeUsers": []
+    }
+  ]
+}

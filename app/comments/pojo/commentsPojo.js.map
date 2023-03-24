@@ -1,0 +1,1 @@
+{"version":3,"file":"commentsPojo.js","sourceRoot":"","sources":["../../../src/comments/pojo/commentsPojo.ts"],"names":[],"mappings":";;AAAA,MAAqB,YAAY;IAM/B,YAAY,QAAgB,EAAE,UAAkB,EAAE,OAAe,EAAE,IAAY;QAC7E,IAAI,CAAC,QAAQ,GAAG,QAAQ,CAAA;QACxB,IAAI,CAAC,UAAU,GAAG,UAAU,CAAA;QAC5B,IAAI,CAAC,OAAO,GAAG,OAAO,CAAA;QACtB,IAAI,CAAC,IAAI,GAAG,IAAI,CAAA;IAClB,CAAC;CACF;AAZD,+BAYC"}

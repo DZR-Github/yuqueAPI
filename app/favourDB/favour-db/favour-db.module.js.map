@@ -1,0 +1,1 @@
+{"version":3,"file":"favour-db.module.js","sourceRoot":"","sources":["../../../src/favourDB/favour-db/favour-db.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAuC;AACvC,2DAAqD;AAM9C,IAAM,cAAc,GAApB,MAAM,cAAc;CAAG,CAAA;AAAjB,cAAc;IAJ1B,IAAA,eAAM,EAAC;QACN,SAAS,EAAE,CAAC,mCAAe,CAAC;QAC5B,OAAO,EAAE,CAAC,mCAAe,CAAC;KAC3B,CAAC;GACW,cAAc,CAAG;AAAjB,wCAAc"}

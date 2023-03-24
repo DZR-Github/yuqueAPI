@@ -1,0 +1,184 @@
+{
+  "articles": [
+    {
+      "title": "2022 年的十大生物学突破",
+      "content": "许多论文需要一年多的时间才能发表，在期刊官僚的严密监视下，被搁置在数字化的边缘。漫长的等待可能也不值得——同行评审通常是无用的，而且很多糟糕的科学无论如何都能通过。许多伟大的想法也从来没有发表在论文上，因为，好吧，他们从来没有得到资助。NIH 拨款审查非常不一致。如果您向 43 位不同的审稿人提供 25 份拨款建议，他们的评定者间可靠性（衡量分数一致性的指标）基本上为零，即使拨款已经获得资金和先前评审小组的高分！给予相同审稿人的无资金资助与有资金资助的资助得分一样。",
+      "articleId": 0,
+      "time": "03-15 10:29",
+      "imgUrl": "http://localhost:8081/00.jpg",
+      "headImgUrl": "http://localhost:8081/00_head.jpeg",
+      "userName": "章鱼猫先生"
+    },
+    {
+      "title": "潮流最前端第 103 期：GPT-4 震撼发布",
+      "content": "TypeScript’s Migration to Modules https://devblogs.microsoft.com/typescript/typescripts-migration-to-modules/One of the most impactful things we’ve worked on in TypeScript 5.0 isn’t a feature, a bug fix, or a data structure optimization. Instead, it’s an infrastructure change. In TypeScript 5.0, we restructured our entire codebase to use ECMAScript modules, and switched to a newer emit target.",
+      "articleId": 1,
+      "time": "03-15 10:53",
+      "imgUrl": "http://localhost:8081/01.jpg",
+      "headImgUrl": "http://localhost:8081/01_head.png",
+      "userName": "侑夕"
+    },
+    {
+      "title": "秋秋的语雀之路",
+      "content": "做个随时有准备的人：你的思维会根据会议去走，即使是那种“没什么卵用的座谈会”，你也能似乎读出来每一个与会人员的发言想表达的核心意思。然后在记录当下的过程中你会产生自己随时想表达的观点。“做个随时有准备的人”，有利于在被任何人CUE的时候不那么尴尬。专业的人会显得一切都很有条理。",
+      "articleId": 2,
+      "time": "03-13 21:31",
+      "imgUrl": "http://localhost:8081/02.png",
+      "headImgUrl": "http://localhost:8081/02_head.png",
+      "userName": "贾秋秋"
+    },
+    {
+      "title": "Vol.41 | 用户行为数据分析_思维周刊_第 41 期",
+      "content": "从广义的角度来看，用户属性 数据、用户行为数据以及用户交易数据都可以看做用户行为数据。用户的每个动作，都是行为。在以用户为中心的逻辑下，用户的整个生命周期都是用户行为数据的一部分，例如用户的第一笔订单、第一次复购、交易频率、品类选择等等。通过将这些数据进行整合和分析，企业可以更好地了解用户的需求和行为，从而制定更加有效的营销策略和业务决策。并且，所有的用户属性数据都可以理解为用户过去行为的沉淀，例如年龄、学历、婚姻状态等。借助算法模型，企业可以通过分析用户的行为数据来推演用户的属性数据，从而更好地了解用户的偏好和消费能力等信息。通过将这些数据进行整合和分析，企业可以更加全面地了解用户的需求和行为，从而制定更加精准的营销策略和业务决策。",
+      "articleId": 3,
+      "time": "03-10 11:49",
+      "imgUrl": "http://localhost:8081/03.png",
+      "headImgUrl": "http://localhost:8081/03_head.png",
+      "userName": "Huazi"
+    },
+    {
+      "title": "后端开发周刊-06",
+      "content": "国外一位英特尔开发者对Linux 性能分析工具的技术分享（国内UP主搬运），对Linux感兴趣的同学可以看看。该视频从业务背景出发，讲述了为什么需要引入本地缓存，引入本地缓存后如何解决优化内存泄露和堆内存空间占用过大的问题。另外视频里面分析问题的思路，对于如何提升响应时间和吞吐量的优化方案也是有理有据的，值得参考学习。",
+      "articleId": 4,
+      "time": "03-19 23:54",
+      "imgUrl": "http://localhost:8081/04.jpg",
+      "headImgUrl": "http://localhost:8081/04_head.png",
+      "userName": "pjmike"
+    },
+    {
+      "title": "机器学习笔记-Andrew Ng",
+      "content": "Machine Learning(机器学习) 是研究计算机怎样模拟或实现人类的学习行为，以获取新的知识或技能，重新组织已有的知识结构使之不断改善自身的性能。它是人工智能的核心，是使计算机具有智能的根本途径，其应用遍及人工智能的各个领域，它主要使用归纳、综合而不是演译。采用学习算法尝试模拟人类大脑的学习方式。深度学习是AI人工智能发展出来的一个领域。让机器学会如何去做。",
+      "articleId": 5,
+      "time": "03-22 10:48",
+      "imgUrl": "http://localhost:8081/05.png",
+      "headImgUrl": "http://localhost:8081/05_head.png",
+      "userName": "rp55"
+    },
+    {
+      "title": "如果你想分享好的文章，我觉得具备这样的特性很重要",
+      "content": "如果你想分享好的文章，我觉得具备这样的特性很重要。如果你想分享好的文章，我觉得具备这样的特性很重要",
+      "articleId": 6,
+      "time": "03-21 19:50",
+      "imgUrl": "http://localhost:8081/06.png",
+      "headImgUrl": "http://localhost:8081/06_head.png",
+      "userName": "余杭子曰"
+    },
+    {
+      "title": "潮流最前端第 102 期：TypeScript 5.0 RC 版本来了",
+      "content": "Today, the web developer version would be 'my site's building' and they would be playing swords in VR. Sites take time to build these days. A large Next.js 11 site will take several minutes to build. This is wasted time in the development cycle. Build tools like Vite or Turbopack highlight their ability to get this number down. But the deeper question hasn't been considered: Why do we even need a build step? Releated: All you may need is HTML.",
+      "articleId": 7,
+      "time": "03-15 09:52",
+      "imgUrl": "http://localhost:8081/07.png",
+      "headImgUrl": "http://localhost:8081/07_head.png",
+      "userName": "侑夕"
+    },
+    {
+      "title":"2月复盘 | 新工作与不配得感",
+      "content":"2月份，大部分时间是在等待offer的煎熬中度过的，所幸，最终在月底顺利入职。所以这个月，都是围绕换工作这件事展开的，最大的收获就是：拥抱不配得感。从年前开始面试到拿到正式offer整整用了两个多月。经历了疫情放开后，大家都陆陆续续阳了，也经历了春节，年后才等到口头offer，又经历漫长的3个星期的人事流程和体检，终于拿到正式offer。等offer的过程中，每天开着手机提醒，等着电话，甚至搞起了玄学，在某书拿offer的笔记下评论沾喜气。下班后，也无心做自己原本安排好的充电计划，为了躲避煎熬的情绪（控制不了往坏了想），自愿被多巴胺劫持。知道自己这样不行，也知道不能在一棵树上吊死，但是我好像就是缺少行动力。",
+      "articleId":8,
+      "time":"03-11 12:20",
+      "imgUrl":"http://localhost:8081/08.png",
+      "headImgUrl":"http://localhost:8081/08_head.png",
+      "userName":"娜就冲！"
+    },
+    {
+      "title":"钉钉的定时消息和静音消息新功能的思考",
+      "content":"我算是很早使用钉钉的一拨人，当时是在2016年，钉钉的版本还是2.x。那个时候选用钉钉是因为我们当时在创业，有一个小团队，其中部分人还是兼职。采用微信发消息无法知道消息的送达状态，在上班期间又不方便打电话直接沟通。这个时候，钉钉的消息已读标识和短信钉恰恰解决了我们这个问题，于是我们的工作沟通就全部切换到了钉钉。用上去了之后，整个团队的沟通效率提高了很多。现在回想起来，钉钉的这个做法非常值得借鉴，他们早期聚焦在解决客户某个具体的、高频的痛点，就能够吸引客户持续使用。",
+      "articleId":9,
+      "time":"03-05 20:37",
+      "imgUrl":"http://localhost:8081/09.png",
+      "headImgUrl":"http://localhost:8081/09_head.jpg",
+      "userName":"产品海豚湾"
+    },
+    {
+      "title":"Git分支管理的原则",
+      "content":"GIT，在技术层面上，绝对是一个无中心的分布式版本控制系统，但在管理层面上，我建议你保持一个中心版本库。我建议，一个中心版本库(我们叫它origin)至少包括两个分支，即“主分支(master)”和“开发分支(develop)”要确保：团队成员从主分支(master)获得的都是处于可发布状态的代码，而从开发分支(develop)应该总能够获得最新开发进展的代码。在一个团队开发协作中，我建议，要有“辅助分支”的概念。",
+      "articleId":10,
+      "time":"03-10 22:56",
+      "imgUrl":"http://localhost:8081/10.png",
+      "headImgUrl":"http://localhost:8081/10_head.png",
+      "userName":"DevOps在路上"
+    },
+    {
+      "title":"敢于断舍离",
+      "content":"我曾经是 Firefox 浏览器的忠实用户，在上面存了很多网址，细心的给他们分类，日积月累之下，有高达上千条。每次打开浏览器的时候，都要卡一会。当然，这对于真正有收集癖的人来说，并不算多。后来，电脑运行越来越卡，换了一台新电脑。我把 Firefox 中收藏的网址导出，打算导入到新电脑的浏览器中。新电脑太流畅了，到了要导入书签网址的时候，看着干干净净的打开速度如闪电一般的浏览器，我却犹豫了。",
+      "articleId":11,
+      "time":"03-13 15:29",
+      "imgUrl":"http://localhost:8081/11.jpg",
+      "headImgUrl":"http://localhost:8081/11_head.png",
+      "userName":"CaiCai"
+    },
+    {
+      "title":"从编程范式及实时 Web 应用的另类角度看向 ChatGPT 的 AI 大脑",
+      "content":"ChatGPT 是什么、它能做什么、甚至如果你想深入了解它的技术底层原理，那么，我相信此时此刻的你，在互联网的任何一个角落找到一篇 Paper 来快速了解它已经是一件非常容易的事情了，因为毫不夸张地说，它正在改变整个世界。当然，最酷的方式一定是，你可以直接通过 ChatGPT 来了解 ChatGPT。今天铺天盖地的关于它的文章背后，体现的主流核心思想最多的关键字我认为是： 崇拜 。无数的人和事情都在跟进它、把玩它、研究它。直到此刻，它的热度依旧处于全网顶格状态，甚至在最近的一些来自硅谷的报道中，我隐约感觉到，硅谷好像只剩下 AI 了，几大巨头甚至不惜直接宣布解散元宇宙、Web 3.0 等命题组也要全身心押宝它。",
+      "articleId":12,
+      "time":"03-13 09:46",
+      "imgUrl":"http://localhost:8081/12.jpg",
+      "headImgUrl":"http://localhost:8081/12_head.png",
+      "userName":"Archer"
+    },
+    {
+      "title":"2022 读书 Top10｜在现实与非现实之间，还有阅读",
+      "content":"在年初的时候立志今年要看完60本书，看来还是太狂妄了，到目前为止加上划水读的，满打满算也才读了56本；在年中的时候夸下海口说要每月写读书总结，虽然其结果也是不了了之；不过年终总结还是要写一写的，也算是给自己的交待了，于是盘点一下我今年的阅读Top10。尽量在虚构作品与非虚构作品中各挑选了5本，今年还有一些读了一半中途被打断就没再拿起来的书，比如《看不见的城市》、《成为母亲的选择》等等，也有一些我很钟爱的书，比如《致后代：布莱希特诗选》、《素食者》、《成为波伏瓦》、《秋园》、《微尘》等等，碍于选书的篇幅也暂且不提。",
+      "articleId":13,
+      "time":"03-09 14:15",
+      "imgUrl":"http://localhost:8081/13.png",
+      "headImgUrl":"http://localhost:8081/13_head.png",
+      "userName":"一景"
+    },
+    {
+      "title":"供应链系统拆解系列：从进销存系统入门供应链",
+      "content":"采购方面的内容应该是很多供应链书籍都会提到的，里面有非常多的门道和细节，但是对于进销存系统来说，我们姑且可以不用考虑那么复杂，只需要关注一些核心的点即可。当我们想要做采购相关的系统的时候，可以试着从这么几个点去发散一下，就可以理解，为什么进销存系统会有这些基础数据/资料的管理。当要采购东西的时候，首先得要知道需要采购什么（商品管理），然后向谁采购（供应商管理），接着是以什么价格去采购（采购价格管理），采购多少数量，最后采购的东西要放到哪里去（仓库管理）。",
+      "articleId":14,
+      "time":"03-13 17:53",
+      "imgUrl":"http://localhost:8081/14.png",
+      "headImgUrl":"http://localhost:8081/14_head.png",
+      "userName":"叫我vitamin"
+    },
+    {
+      "title":"如何让 ChatGPT 读懂超长保险条款？",
+      "content":"在去年年底 ChatGPT 刚火的时候我就有一个想法，它能不能帮我读一下晦涩难懂的保险条款，告诉我它到底在讲什么？到底什么病能赔多少钱？甚至能告诉我里面是不是藏有一些坑？但是当我把条款内容复制到 ChatGPT 时，我们会发现，它直接告诉你：“太长了，它受不了”。当我们自己打开 openai 的文档（https://platform.openai.com/docs/api-reference/completions/create），我们才明白：哦，原来它接受的最大长度是 4096个 tokens。但这个 一个 token 到底是多长呢？暂时还不知道，反正就是有这么个上限。很显然，我们的保险条款远远的超过了它的上限，因为我才复制两三页的内容它就 Error 了。",
+      "articleId":15,
+      "time":"03-04 22:58",
+      "imgUrl":"http://localhost:8081/15.png",
+      "headImgUrl":"http://localhost:8081/15_head.png",
+      "userName":"相学长"
+    },
+    {
+      "title":"生活如摄影，精彩都藏在对未知的探索中",
+      "content":"生活如摄影，精彩都藏在对未知的探索中。心中一直对摄影这件事有种念念不忘的感觉，不能准确的说出是何种情愫，但可以隐约感觉到可能是影片记录了不被物理留存的美好时光，也有可能只是景独好的视觉抚慰了躁动的柔软心灵；与其说是追求对摄影技能的精进，不如说是在提升对外部未知世界的勇敢探索与对柔软心灵的温暖关怀；而在自己尝试精进摄影技能的路上，似乎有点感受到了其中的精彩与美好。对摄影技法的精进更侧重于摄影者观察这个世界与美好风景的独特视角，也更是一种心胸逐渐被打开的过程；在追求摄影技法精进的路上，需要向更多未知的地方去探索，而一切美好，也都藏在这种未知之中。",
+      "articleId":16,
+      "time":"03-17 17:04",
+      "imgUrl":"http://localhost:8081/16.jpg",
+      "headImgUrl":"http://localhost:8081/16_head.png",
+      "userName":"艾克先生"
+    },
+    {
+      "title":"如何在工作中提升心流时间",
+      "content":"心流 是积极心理学奠基人米哈里在研究了大量案例后提出的概念，这位大师一生都在研究 什么是幸福的生活，认为心流是通往幸福的密码，他曾用两个案例来描述心流状态：1、艺术家创作：“They’d finish a work of art, and instead of enjoying it…they would put it against the wall and start a new painting. They weren’t really interested in the finished painting.”2、庖丁解牛：“庖丁为文惠君解牛，手之所触，肩之所倚，足之所履，膝之所踦，砉然向然，奏刀騞然，莫不中音。合于《桑林》之舞，乃中《经首》之会。”",
+      "articleId":17,
+      "time":"03-03 11:27",
+      "imgUrl":"http://localhost:8081/17.png",
+      "headImgUrl":"http://localhost:8081/17_head.png",
+      "userName":"CaiCai"
+    },
+    {
+      "title": "潮流最前端第 97 期：Web3.0 创作者经济年度报告",
+      "content": "ChatGPT has kicked off a frenzy. It is all anyone in the tech world is talking about it seems. Startups are popping up left and right. Big companies are rapidly releasing ChatGPT-like features integrated in their products. People are anticipating that large language models are going to revolutionize the world. And maybe they will. But a chat bot won't. Expecting users to primarily interact with software in natural language is lazy. It puts all the burden on the user to articulate good questions. What to ask, when to ask it, how to ask it, to make sense of the response, and then to repeat that many times.",
+      "articleId": 18,
+      "time": "01-31 09:58",
+      "imgUrl": "http://localhost:8081/18.png",
+      "headImgUrl": "http://localhost:8081/18_head.png",
+      "userName": "侑夕"
+    },
+    {
+      "title":"故事：《信息流沙》之演进",
+      "content":"2015年前后，我的印象笔记达到了10000条，充斥着各种不知道什么时候做的网页的剪藏和乱七八糟的随手记录。我充分实践了第二大脑的理念，所有东西都往里装，不管是工作笔记，个人笔记，不管是关于写作的、运动的、病痛的、物质的，都在这个库里面。我甚至把所有的手写的工作笔记都拆开了扫描装进来。然后这个库就很大，重点不突出，很不好用。在思考这个问题的过程中，我单独做了一个“如何做笔记”的笔记。考虑了印象笔记的功能特点，同时对信息整理的方方面面进行了考察。在这个过程中，我也对笔记库进行清理，删掉了6000条以上的网页收藏。",
+      "articleId":19,
+      "time":"05-29 18:00",
+      "imgUrl":"http://localhost:8081/19.png",
+      "headImgUrl":"http://localhost:8081/19_head.png",
+      "userName":"ppip"
+    }
+  ]
+}
