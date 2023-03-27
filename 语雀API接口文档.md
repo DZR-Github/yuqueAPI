@@ -245,6 +245,98 @@
     }
     ```
 
+#### 1.3  用户创建个人信息
+
+- 请求路径：`/personalmsg`
+
+- 请求方法：Post
+
+- 是否需要token：是
+
+- 请求参数：
+
+  | 参数名                | 参数说明 | 备注 |
+  | --------------------- | -------- | ---- |
+  | nickname              | 昵称     |      |
+  | personalizedSignature | 个性签名 |      |
+
+- 响应参数：无
+
+- 响应数据示例：
+
+  ```json
+  {
+      "statusCode": 200,
+      "data": {
+          "message": "创建个人信息成功！"
+      },
+      "message": "success"
+  }
+  ```
+
+#### 1.4  更新用户信息
+
+- 请求路径：`/personalmsg`
+
+- 请求方法：patch
+
+- 是否需要token：是
+
+- 请求参数：
+
+  | 参数名                | 参数说明 | 备注 |
+  | --------------------- | -------- | ---- |
+  | nickname              | 昵称     |      |
+  | personalizedSignature | 个性签名 |      |
+
+- 响应参数：无
+
+- 响应数据示例：
+
+  ```json
+  {
+      "statusCode": 200,
+      "data": {
+          "message": "个人信息更新成功！"
+      },
+      "message": "success"
+  }
+  ```
+
+#### 1.5  获取用户个人信息
+
+- 请求路径：`/personalmsg`
+
+- 请求方法：Get
+
+- 是否需要token：是
+
+- 请求参数：无
+
+- 响应参数：
+
+  | 参数名                | 参数说明   | 备注                    |
+  | --------------------- | ---------- | ----------------------- |
+  | nickname              | 昵称       |                         |
+  | personalizedSignature | 个性签名   |                         |
+  | collectionSum         | 收藏文章数 | 首次获取用户信息时值为0 |
+
+- 响应数据示例：
+
+  ```json
+  {
+      "statusCode": 200,
+      "data": {
+          "nickname": "小明",
+          "personalizedSignature": "我爱前端",
+          "collectionSum": 0
+      },
+      "message": "success"
+  }
+  ```
+
+  
+
 
 
 ### 2. 文章模块
