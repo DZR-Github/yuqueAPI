@@ -12,10 +12,12 @@ const comments_service_1 = require("./comments.service");
 const comments_controller_1 = require("./comments.controller");
 const comments_db_service_1 = require("../commentsDB/comments-db/comments-db.service");
 const personal_msg_db_service_1 = require("../personalMsgDB/personal-msg-db/personal-msg-db.service");
+const personal_msg_module_1 = require("../personal-msg/personal-msg.module");
 let CommentsModule = class CommentsModule {
 };
 CommentsModule = __decorate([
     (0, common_1.Module)({
+        imports: [personal_msg_module_1.PersonalMsgModule],
         controllers: [comments_controller_1.CommentsController],
         providers: [comments_service_1.CommentsService, comments_db_service_1.CommentsDbService, personal_msg_db_service_1.default]
     })

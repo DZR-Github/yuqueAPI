@@ -25,7 +25,7 @@ __decorate([
 ], MiniNoteDto.prototype, "createTime", void 0);
 __decorate([
     (0, class_validator_1.IsNotEmpty)(),
-    (0, class_validator_1.IsNumberString)(),
+    (0, class_validator_1.IsNumber)(),
     __metadata("design:type", Number)
 ], MiniNoteDto.prototype, "notesId", void 0);
 __decorate([

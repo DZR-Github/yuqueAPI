@@ -18,12 +18,14 @@ const collection_db_service_1 = require("../collectionDB/collection-db/collectio
 const collectionVo_1 = require("./vo/collectionVo");
 const article_db_service_1 = require("../article-db/article-db.service");
 const personal_msg_db_service_1 = require("../personalMsgDB/personal-msg-db/personal-msg-db.service");
+const personal_msg_service_1 = require("../personal-msg/personal-msg.service");
 let CollectionService = class CollectionService {
-    constructor(userService, CollectionDbService, ArticleDbService, PersonalMsgDbService) {
+    constructor(userService, CollectionDbService, ArticleDbService, PersonalMsgDbService, PersonalMsgService) {
         this.userService = userService;
         this.CollectionDbService = CollectionDbService;
         this.ArticleDbService = ArticleDbService;
         this.PersonalMsgDbService = PersonalMsgDbService;
+        this.PersonalMsgService = PersonalMsgService;
         this.COLLECTION_NAME = app_module_1.COLLECTION_NAME_ENUM.COLLECTIONS;
     }
     async getUserIdByToken(headers) {
@@ -48,11 +50,12 @@ let CollectionService = class CollectionService {
         const articleId = addCollectionDto.articleId;
         const articleData = await this.ArticleDbService.dbService.getAll(app_module_1.COLLECTION_NAME_ENUM.ARTICLES);
         const articleLength = articleData.length;
+        const hasPerson = await this.PersonalMsgService.getPerson(headers);
         const personalMsg = await this.PersonalMsgDbService.dbService.getByOption(app_module_1.COLLECTION_NAME_ENUM.PERSONALMSG, {
             userId: userId
         });
         const ListData = await this.CollectionDbService.dbService.getByOption(this.COLLECTION_NAME, { userId: userId });
-        if (!personalMsg.userId) {
+        if (!hasPerson) {
             this.result = resultType_1.Result.fail(resultType_1.statusCodeEnum.BAD_REQUEST, "请先创建个人信息后再添加收藏！");
             return this.result;
         }
@@ -106,7 +109,8 @@ let CollectionService = class CollectionService {
         const personalMsg = await this.PersonalMsgDbService.dbService.getByOption(app_module_1.COLLECTION_NAME_ENUM.PERSONALMSG, {
             userId: userId
         });
-        if (!personalMsg.userId) {
+        const hasPerson = await this.PersonalMsgService.getPerson(headers);
+        if (!hasPerson) {
             this.result = resultType_1.Result.fail(resultType_1.statusCodeEnum.BAD_REQUEST, "请先创建个人信息再取消收藏！");
             return this.result;
         }
@@ -151,7 +155,8 @@ CollectionService = __decorate([
     __metadata("design:paramtypes", [user_service_1.UserService,
         collection_db_service_1.default,
         article_db_service_1.default,
-        personal_msg_db_service_1.default])
+        personal_msg_db_service_1.default,
+        personal_msg_service_1.PersonalMsgService])
 ], CollectionService);
 exports.CollectionService = CollectionService;
 //# sourceMappingURL=collection.service.js.map

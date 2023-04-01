@@ -61,6 +61,16 @@ let PersonalMsgService = class PersonalMsgService {
         }
         return this.result;
     }
+    async getPerson(headers) {
+        const userId = await this.getUserIdByToken(headers);
+        const listData = await this.PersonalMsgDbService.dbService.getByOption(this.COLLECTION_NAME, {
+            userId: userId
+        });
+        if (!listData.userId) {
+            return false;
+        }
+        return true;
+    }
     async updatePersonalMsg(personalMsgDto, headers) {
         const userId = await this.getUserIdByToken(headers);
         const oldData = await this.PersonalMsgDbService.dbService.getByOption(this.COLLECTION_NAME, {

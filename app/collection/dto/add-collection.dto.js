@@ -15,7 +15,7 @@ class addCollectionDto {
 }
 __decorate([
     (0, class_validator_1.IsNotEmpty)(),
-    (0, class_validator_1.IsNumberString)(),
+    (0, class_validator_1.IsNumber)(),
     __metadata("design:type", Number)
 ], addCollectionDto.prototype, "articleId", void 0);
 exports.addCollectionDto = addCollectionDto;
