@@ -50,12 +50,9 @@ let CollectionService = class CollectionService {
         const articleId = addCollectionDto.articleId;
         const articleData = await this.ArticleDbService.dbService.getAll(app_module_1.COLLECTION_NAME_ENUM.ARTICLES);
         const articleLength = articleData.length;
-        const hasPerson = await this.PersonalMsgService.getPerson(headers);
-        const personalMsg = await this.PersonalMsgDbService.dbService.getByOption(app_module_1.COLLECTION_NAME_ENUM.PERSONALMSG, {
-            userId: userId
-        });
+        const person = await this.PersonalMsgService.getPerson(headers);
         const ListData = await this.CollectionDbService.dbService.getByOption(this.COLLECTION_NAME, { userId: userId });
-        if (!hasPerson) {
+        if (!person.status) {
             this.result = resultType_1.Result.fail(resultType_1.statusCodeEnum.BAD_REQUEST, "请先创建个人信息后再添加收藏！");
             return this.result;
         }
@@ -90,9 +87,9 @@ let CollectionService = class CollectionService {
             if (flag === 0) {
                 const newData = {
                     userId: userId,
-                    nickname: personalMsg.nickname,
-                    collectionSum: personalMsg.collectionSum + 1,
-                    personalizedSignature: personalMsg.personalizedSignature
+                    nickname: person.data.nickname,
+                    collectionSum: person.data.collectionSum + 1,
+                    personalizedSignature: person.data.personalizedSignature
                 };
                 await this.PersonalMsgDbService.dbService.update(app_module_1.COLLECTION_NAME_ENUM.PERSONALMSG, {
                     userId: userId
@@ -106,11 +103,8 @@ let CollectionService = class CollectionService {
         const articleData = await this.ArticleDbService.dbService.getAll(app_module_1.COLLECTION_NAME_ENUM.ARTICLES);
         const articleLength = articleData.length;
         const ListData = await this.CollectionDbService.dbService.getByOption(this.COLLECTION_NAME, { userId: userId });
-        const personalMsg = await this.PersonalMsgDbService.dbService.getByOption(app_module_1.COLLECTION_NAME_ENUM.PERSONALMSG, {
-            userId: userId
-        });
-        const hasPerson = await this.PersonalMsgService.getPerson(headers);
-        if (!hasPerson) {
+        const person = await this.PersonalMsgService.getPerson(headers);
+        if (!person.status) {
             this.result = resultType_1.Result.fail(resultType_1.statusCodeEnum.BAD_REQUEST, "请先创建个人信息再取消收藏！");
             return this.result;
         }
@@ -136,10 +130,10 @@ let CollectionService = class CollectionService {
                     await this.CollectionDbService.dbService.update(this.COLLECTION_NAME, { userId: userId }, data);
                     this.result = resultType_1.Result.successWithCustomCode(resultType_1.statusCodeEnum.OK, "取消收藏成功！");
                     const newData = {
-                        userId: personalMsg.userId,
-                        nickname: personalMsg.nickname,
-                        collectionSum: personalMsg.collectionSum - 1,
-                        personalizedSignature: personalMsg.personalizedSignature
+                        userId: person.data.userId,
+                        nickname: person.data.nickname,
+                        collectionSum: person.data.collectionSum - 1,
+                        personalizedSignature: person.data.personalizedSignature
                     };
                     await this.PersonalMsgDbService.dbService.update(app_module_1.COLLECTION_NAME_ENUM.PERSONALMSG, {
                         userId: userId

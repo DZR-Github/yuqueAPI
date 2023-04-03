@@ -14,30 +14,17 @@ const common_1 = require("@nestjs/common");
 const app_module_1 = require("../app.module");
 const resultType_1 = require("../config/resultType");
 const comments_db_service_1 = require("../commentsDB/comments-db/comments-db.service");
-const personal_msg_db_service_1 = require("../personalMsgDB/personal-msg-db/personal-msg-db.service");
-const user_service_1 = require("../user/user.service");
 const commentsVo_1 = require("./vo/commentsVo");
 const personal_msg_service_1 = require("../personal-msg/personal-msg.service");
 let CommentsService = class CommentsService {
-    constructor(CommentsDbService, PersonalMsgDbService, userService, PersonalMsgService) {
+    constructor(CommentsDbService, PersonalMsgService) {
         this.CommentsDbService = CommentsDbService;
-        this.PersonalMsgDbService = PersonalMsgDbService;
-        this.userService = userService;
         this.PersonalMsgService = PersonalMsgService;
         this.COLLECTION_NAME = app_module_1.COLLECTION_NAME_ENUM.COMMENTS;
     }
-    async getUserIdByToken(headers) {
-        let userId;
-        await this.userService.getUserInfo(headers.token).then(res => {
-            userId = res.id;
-        });
-        return userId;
-    }
     async addComments(addCommentsDto, headers) {
-        const userId = await this.getUserIdByToken(headers);
-        const PersonalMsg = await this.PersonalMsgDbService.dbService.getByOption(app_module_1.COLLECTION_NAME_ENUM.PERSONALMSG, { userId: userId });
-        const hasPerson = await this.PersonalMsgService.getPerson(headers);
-        if (!hasPerson) {
+        const person = await this.PersonalMsgService.getPerson(headers);
+        if (!person.status) {
             this.result = resultType_1.Result.fail(resultType_1.statusCodeEnum.BAD_REQUEST, "请先创建个人信息后再添加评论！");
             return this.result;
         }
@@ -49,7 +36,7 @@ let CommentsService = class CommentsService {
                 articleId: Math.floor(Number(addCommentsDto.articleId)),
                 comments: [
                     {
-                        nickname: PersonalMsg.nickname,
+                        nickname: person.data.nickname,
                         headImgUrl: "http://localhost:8081/userImg.png",
                         content: addCommentsDto.comments,
                         time: addCommentsDto.time
@@ -61,7 +48,7 @@ let CommentsService = class CommentsService {
         else {
             const newData = listData;
             newData.comments.push({
-                nickname: PersonalMsg.nickname,
+                nickname: person.data.nickname,
                 headImgUrl: "http://localhost:8081/userImg.png",
                 content: addCommentsDto.comments,
                 time: addCommentsDto.time
@@ -84,8 +71,6 @@ let CommentsService = class CommentsService {
 CommentsService = __decorate([
     (0, common_1.Injectable)(),
     __metadata("design:paramtypes", [comments_db_service_1.CommentsDbService,
-        personal_msg_db_service_1.default,
-        user_service_1.UserService,
         personal_msg_service_1.PersonalMsgService])
 ], CommentsService);
 exports.CommentsService = CommentsService;

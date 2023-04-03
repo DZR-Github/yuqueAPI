@@ -1,6 +1,6 @@
 # 语雀API接口文档
 
-> [Github地址](https://github.com/PacificD/class-schedule-backend-dist)
+> 接口仓库地址：[Gitee](https://gitee.com/web-zrd/yuqueAPI)    [Github](https://github.com/DZR-Github/yuqueAPI)
 
 ## API V1 接口说明：
 

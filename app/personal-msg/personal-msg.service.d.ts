@@ -11,6 +11,6 @@ export declare class PersonalMsgService {
     private getUserIdByToken;
     addPersonalMsg(personalMsgDto: personalMsgDto, headers: Record<string, string>): Promise<Result>;
     getPersonalMsg(headers: Record<string, string>): Promise<Result>;
-    getPerson(headers: Record<string, string>): Promise<boolean>;
+    getPerson(headers: Record<string, string>): Promise<any>;
     updatePersonalMsg(personalMsgDto: personalMsgDto, headers: Record<string, string>): Promise<Result>;
 }

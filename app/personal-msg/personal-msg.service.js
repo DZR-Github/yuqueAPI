@@ -67,9 +67,15 @@ let PersonalMsgService = class PersonalMsgService {
             userId: userId
         });
         if (!listData.userId) {
-            return false;
+            return {
+                status: false,
+                data: ""
+            };
         }
-        return true;
+        return {
+            status: true,
+            data: listData
+        };
     }
     async updatePersonalMsg(personalMsgDto, headers) {
         const userId = await this.getUserIdByToken(headers);
