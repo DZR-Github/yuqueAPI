@@ -91,9 +91,7 @@ let CollectionService = class CollectionService {
                     collectionSum: person.data.collectionSum + 1,
                     personalizedSignature: person.data.personalizedSignature
                 };
-                await this.PersonalMsgDbService.dbService.update(app_module_1.COLLECTION_NAME_ENUM.PERSONALMSG, {
-                    userId: userId
-                }, newData);
+                await this.PersonalMsgService.updateMsg(newData, headers);
             }
         }
         return this.result;
@@ -135,9 +133,7 @@ let CollectionService = class CollectionService {
                         collectionSum: person.data.collectionSum - 1,
                         personalizedSignature: person.data.personalizedSignature
                     };
-                    await this.PersonalMsgDbService.dbService.update(app_module_1.COLLECTION_NAME_ENUM.PERSONALMSG, {
-                        userId: userId
-                    }, newData);
+                    await this.PersonalMsgService.updateMsg(newData, headers);
                 }
             }
         }

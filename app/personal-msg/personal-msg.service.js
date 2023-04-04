@@ -97,6 +97,17 @@ let PersonalMsgService = class PersonalMsgService {
         }
         return this.result;
     }
+    async updateMsg(newData, headers) {
+        const userId = await this.getUserIdByToken(headers);
+        const data = {
+            userId: userId,
+            nickname: newData.nickname,
+            collectionSum: newData.collectionSum,
+            personalizedSignature: newData.personalizedSignature
+        };
+        await this.PersonalMsgDbService.dbService.update(this.COLLECTION_NAME, { userId: userId }, data);
+        return { success: true };
+    }
 };
 PersonalMsgService = __decorate([
     (0, common_1.Injectable)(),
