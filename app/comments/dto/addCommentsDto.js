@@ -15,7 +15,7 @@ class addCommentsDto {
 }
 __decorate([
     (0, class_validator_1.IsNotEmpty)(),
-    (0, class_validator_1.IsNumber)(),
+    (0, class_validator_1.IsNumberString)(),
     __metadata("design:type", Number)
 ], addCommentsDto.prototype, "articleId", void 0);
 __decorate([
